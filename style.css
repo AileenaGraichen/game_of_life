@@ -1,4 +1,18 @@
 body{
-    background-color: darkslategrey;
+    background-color: rgb(99, 44, 158);
     color: white;
+}
+
+canvas { 
+    border: 3px solid rgb(238, 205, 243);
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }

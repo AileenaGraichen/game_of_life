@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Game of Life</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/favicon.png" type="icon/x-icon">
 </head>
 <body>
-    <h1>Game of Life</h1>
+    <div class="container">
+        <image src="/images/title_icon.png"></image>
+        <canvas id="gameCanvas" width="600" height="600"></canvas>
+        <button id="startBtn">Start</button>
+        <button id="clearBtn">Clear</button>
+        <button id="randomBtn">Randomize</button>
+        <div>Generation: <span id="generationCount">0</span></div>
+    </div> 
     
     <script src="controller.js"></script>
 </body>
